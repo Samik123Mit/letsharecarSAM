@@ -119,7 +119,7 @@ Follow these steps to set up the Car Sharing Website on your local or production
 
 Clone the Repository:
 
-git clone https://github.com/Samik123Mit/Letsharecab-SAM-?
+git clone (https://github.com/Samik123Mit/letsharecar_SAM-)
 
 Set Up the Database:
 
@@ -177,7 +177,7 @@ Support
 
 For support or inquiries, please contact:
 
-Email: saketh.mukkanti@example.com
+Email: isamikshasamiksha@gmail.com
 
 License
 
