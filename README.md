@@ -74,9 +74,6 @@ The **Car Sharing Website** is a web-based application designed to simplify and 
 
 ---
 
-## Live Demo
-
-Explore the live version of the Car Sharing Website here: [Car Sharing Website Demo](https://github.com/Samik123Mit/letsharecar_SAM-)
 
 ---
 
