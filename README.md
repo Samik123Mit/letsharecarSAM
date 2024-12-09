@@ -1,185 +1,151 @@
-Car Sharing Website
+# Car Sharing Website
 
-The Car Sharing Website is a web-based application designed to simplify and promote carpooling by connecting individuals who can share rides to common destinations. This platform not only provides cost-effective travel solutions but also contributes to environmental sustainability by encouraging reduced vehicle usage.
+The **Car Sharing Website** is a web-based application designed to simplify and promote carpooling by connecting individuals who can share rides to common destinations. This platform offers cost-effective travel solutions while contributing to environmental sustainability by reducing vehicle usage.
 
-Table of Contents
+---
 
-Features
+## Table of Contents
 
-Technologies Used
+- **Features**
+- **Technologies Used**
+- **Live Demo**
+- **Installation Guide**
+- **Usage Instructions**
+- **Contributors**
+- **Screenshots**
+- **Support**
+- **License**
 
-Live Demo
+---
 
-Installation Guide
+## Features
 
-Usage Instructions
+### 🔒 User Authentication and Security
 
-Contributors
+- **Secure Sign-Up and Login:**
+  - Users can register with email validation.
+  - Encrypted password storage ensures user data security.
+  - "Remember Me" feature keeps users logged in securely.
 
-Screenshots
+- **Password Recovery:**
+  - Password reset functionality with secure email-based recovery links.
 
-Support
+### 🚗 Trip Management
 
-License
+- **Create Trips:**
+  - Add trips with details like starting point, destination, date, time, and more.
 
-Features
+- **Edit Trips:**
+  - Update trip details in case of schedule changes.
 
-🔒 User Authentication and Security
+- **Delete Trips:**
+  - Remove trips that are no longer relevant.
 
-Secure Sign-Up and Login:
+- **Search for Trips:**
+  - Find trips shared by others using filters for destination, time, etc.
 
-Users can register with email validation.
+### 👤 User Profile Management
 
-Encrypted password storage ensures user data security.
+- **Profile Updates:**
+  - Change profile pictures, usernames, and email addresses.
 
-"Remember Me" feature keeps users logged in securely.
+- **Password Management:**
+  - Securely update passwords with real-time encryption.
 
-Password Recovery:
+### 🌎 Google Maps Integration
 
-Password reset functionality with secure email-based recovery links.
+- **Integrated Google Maps API for:**
+  - Planning and visualizing trips.
+  - Viewing optimal routes and destinations on a map.
 
-🚗 Trip Management
+---
 
-Create Trips:
+## Technologies Used
 
-Add trips with details like starting point, destination, date, time, and more.
+| **Technology**  | **Purpose**                                   |
+|------------------|-----------------------------------------------|
+| PHP              | Backend development and API integration.      |
+| MySQL            | Secure data storage and retrieval.            |
+| Google Maps API  | Interactive trip planning and route display.  |
+| HTML & CSS       | Building and styling the application interface.|
+| JavaScript       | Adding dynamic functionality to the website.  |
+| Bootstrap        | Creating a responsive, mobile-friendly design.|
+| jQuery           | Simplifying front-end scripting tasks.        |
 
-Edit Trips:
+---
 
-Update trip details in case of schedule changes.
+## Live Demo
 
-Delete Trips:
+Explore the live version of the Car Sharing Website here: [Car Sharing Website Demo](https://github.com/Samik123Mit/letsharecar_SAM-)
 
-Remove trips that are no longer relevant.
+---
 
-Search for Trips:
-
-Find trips shared by others using filters for destination, time, etc.
-
-👤 User Profile Management
-
-Profile Updates:
-
-Change profile pictures, usernames, and email addresses.
-
-Password Management:
-
-Securely update passwords with real-time encryption.
-
-🌎 Google Maps Integration
-
-Integrated Google Maps API for:
-
-Planning and visualizing trips.
-
-Viewing optimal routes and destinations on a map.
-
-Technologies Used
-
-Technology
-
-Purpose
-
-PHP
-
-Backend development and API integration.
-
-MySQL
-
-Secure data storage and retrieval.
-
-Google Maps API
-
-Interactive trip planning and route display.
-
-HTML & CSS
-
-Building and styling the application interface.
-
-JavaScript
-
-Adding dynamic functionality to the website.
-
-Bootstrap
-
-Creating a responsive, mobile-friendly design.
-
-jQuery
-
-Simplifying front-end scripting tasks.
-
-Live Demo
-
-Explore the live version of the Car Sharing Website here:
-Car Sharing Website Demo
-
-Installation Guide
+## Installation Guide
 
 Follow these steps to set up the Car Sharing Website on your local or production server:
 
-Clone the Repository:
+1. **Clone the Repository:**
 
-git clone (https://github.com/Samik123Mit/letsharecar_SAM-)
+   ```bash
+   git clone https://github.com/Samik123Mit/letsharecar_SAM-
+   cd letsharecar_SAM-
+   ```
 
-Set Up the Database:
+2. **Set Up the Database:**
+   - Import the `database.sql` file into your MySQL server.
+   - Configure database credentials in the `config.php` file.
 
-Import the database.sql file into your MySQL server.
+3. **Install Dependencies:**
+   - Ensure the required PHP extensions are installed (e.g., PDO, MySQLi).
 
-Configure database credentials in the config.php file.
+4. **Run the Application:**
+   - Deploy the application files to a local or production server.
+   - Access the website via your web browser.
 
-Install Dependencies:
+---
 
-Ensure the required PHP extensions are installed (e.g., PDO, MySQLi).
+## Usage Instructions
 
-Run the Application:
+1. **Sign Up/Login:**
+   - Create an account or log in using your credentials.
 
-Deploy the application files to a local or production server.
+2. **Create or Join Trips:**
+   - Use the "Create Trip" feature to share a ride.
+   - Search for trips and request to join.
 
-Access the website via your web browser.
+3. **Manage Profile:**
+   - Update personal details and settings in the profile section.
 
-Usage Instructions
+4. **View Routes:**
+   - Use the integrated map to visualize routes and destinations.
 
-Sign Up/Login:
 
-Create an account or log in using your credentials.
+---
 
-Create or Join Trips:
+## Screenshots
 
-Use the "Create Trip" feature to share a ride.
+Include screenshots or images showcasing the interface, such as:
+- Homepage
+- Trip creation
+- Google Maps integration
 
-Search for trips and request to join.
+---
 
-Manage Profile:
-
-Update personal details and settings in the profile section.
-
-View Routes:
-
-Use the integrated map to visualize routes and destinations.
-
-Contributors
-
-Name
-
-Role
-
-Saketh Mukkanti
-
-Developer
-
-Contributions, feedback, and suggestions are welcome! Feel free to open issues or pull requests.
-
-Screenshots
-
-Include screenshots or images showcasing the interface, such as the homepage, trip creation, and Google Maps integration.
-
-Support
+## Support
 
 For support or inquiries, please contact:
 
-Email: isamikshasamiksha@gmail.com
+- **Email:** isamikshasamiksha@gmail.com
 
-License
 
-This project is licensed under the MIT License.
+
+---
+
+## About
+
+The Car Sharing Website is a web-based application designed to simplify and promote carpooling by connecting individuals who can share rides to common destinations. This platform not only provides cost-effective travel solutions but also contributes to environmental sustainability by encouraging reduced vehicle usage.
+
+
+
+**Built with 💖 by Samiksha Mitra**
 
